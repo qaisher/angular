@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'lifecycle-hook';
+  value: any;
+  
+  submit(val: any){
+    this.value = val;
+  }
 }
